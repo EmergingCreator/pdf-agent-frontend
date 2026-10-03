@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { useStore } from "./store";
 import "./App.css";
 
-const LINKEDIN_URL = "https://www.linkedin.com/in/your-profile"; // <- put your link here
+const LINKEDIN_URL = "https://www.linkedin.com/in/chirag-raj-b0a622360/?isSelfProfile=true"; // <- put your link here
 
 const SUGGESTIONS = [
   "Summarize this document",
