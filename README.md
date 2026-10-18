@@ -1,16 +1,28 @@
-# React + Vite
+## AI-Powered PDF Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered document question-answering application that allows users to upload PDF documents and ask questions about their content. The application uses document processing, embeddings, vector search, and Large Language Models (LLMs) to retrieve relevant information and generate context-aware responses.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- PDF document upload and processing
+- Semantic search for retrieving relevant document content
+- Context-aware question answering using an LLM
+- Vector-based document retrieval
+- Retrieval-Augmented Generation (RAG)
 
-## React Compiler
+### Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Programming Language:** Python
+- **LLM Framework:** LangChain
+- **Language Model:** Groq
+- **Vector Database:** ChromaDB
+- **Core Concepts:** Embeddings, Semantic Search, Retrieval-Augmented Generation (RAG)
 
-## Expanding the ESLint configuration
+### Project Links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **LinkedIn Project Demo:** https://lnkd.in/p/g95u7DVY
+- **Portfolio:** https://portfolio-ivory-three-55.vercel.app/
+
+### Key Learning Outcomes
+
+Developed practical experience in building an AI-powered document assistant, integrating LLMs with vector databases, implementing semantic retrieval, and generating context-aware answers from PDF documents.
